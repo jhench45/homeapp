@@ -1,0 +1,153 @@
+:root {
+    --accent:#08376B;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden
+}
+
+.carousel-inner{
+    width:50%;
+    padding:80px 20px 70px 20px;
+    background-color:var(--accent);
+    z-index:1;
+    margin-top:56px;
+}
+
+.logo{
+    margin:auto;
+    width:100px;
+    height:50px;
+}
+
+.navbar{
+    background-color:var(--accent);  
+    max-width:100%;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #fff;
+  }
+.nav-item a{
+    color:white;
+    font-weight:700;
+    letter-spacing:.5px;
+    margin:0 5px 0 5px;
+}
+
+ .navbar-toggler,  .navbar-collapse{
+    color:white;
+}
+.navbar-toggler-icon{
+    color:white;
+} 
+
+.carousel-indicators [data-bs-target] {
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+}
+.footer-text{
+    font-size:13px;
+}
+
+
+.fa-circle{
+      color:var(--accent);
+  }
+
+.pt-6 {
+    padding-top: 10px !important;
+}
+
+.footer-list{
+    list-style-type: none;
+    
+}
+.footer-list li{
+    padding:5px;
+    
+}
+
+.abt-home img{
+    width:100%;
+    height:100%;
+}
+.abt-home{
+    width:432px;
+    height:300px;
+} 
+
+.about-us{
+    padding:30px;
+}
+
+.bigicon{
+    font-size:50px;
+}
+
+.circlechan{
+    color:#955670;
+}
+.circlechan2{
+    color:#9db6cc
+    ;
+}
+.circlechan3{
+    color:#ebaab0
+    ;
+}
+.circlechan4{
+    color:#e4c894
+    ;
+}
+
+.ersp p{
+    font-weight:500;
+}
+
+.fa-chevron-right{
+    margin-top:40px;
+    
+    
+}
+
+
+.pright{
+    float:right;
+    
+
+}
+
+.pleft{
+    float:left;
+    font-weight:700;
+}
+
+.btns{
+    background-color:var(--accent) !important;
+    border:none !important;
+}
+
+.job{
+    border:1px solid rgb(172, 172, 172);
+    padding:10px;
+    box-shadow: 2px 2px 26px -13px rgba(123,122,122,0.55);
+-webkit-box-shadow: 2px 2px 26px -13px rgba(123,122,122,0.55);
+-moz-box-shadow: 2px 2px 26px -13px rgba(123,122,122,0.55);
+}
+
+.subt{
+    font-size:12px;
+}
+
+.sulod{
+    padding:5px;
+    width:225px;
+}
+
+.sulod2{
+    padding:5px;
+    
+}
